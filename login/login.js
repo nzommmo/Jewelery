@@ -15,11 +15,10 @@ function login() {
 sign_in.addEventListener("click",login)
 
 function register() {
-     window.open("/user_interface/Homepage.css");
+     window.open("login/registration.html");
     
     
 }
 sign_up.addEventListener("click",register)
 
-console.log("hellow orl")
 

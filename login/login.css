@@ -57,8 +57,28 @@ input{
     border-color:rgb(197, 195, 195);
     background-image: linear-gradient(90deg,lightgreen,aquamarine);
     
+}
+
+footer{
+    position: relative;
+    width:max-content;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 38%;
 
 }
+footer p{
+    width:100%;
+    margin:0 10%;
+}
+footer a {
+    position: relative;
+    margin:0 20px 20px;
+}
+
+
+
+
 
 @media only screen and (max-width:600px){
   body{
