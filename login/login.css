@@ -30,6 +30,8 @@ header{
     background-image: linear-gradient(90deg,lightgreen,aquamarine);
 
 }
+
+
 label{
     margin: 10px 12vw;
 }
@@ -74,7 +76,10 @@ footer p{
 footer a {
     position: relative;
     margin:0 20px 20px;
+    text-decoration: none;
+    color:black;
 }
+
 
 
 

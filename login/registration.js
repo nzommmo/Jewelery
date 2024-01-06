@@ -6,7 +6,7 @@ const error = document.getElementById("error")
 
 function registration (e) {
     let messages = []
-    username ? messages.push("Welcome," + username.value) : messages.push('rada')
+    username ? messages.push("Hello," + username.value) : messages.push('rada')
 
     
     if (password.value ==="" && verify.value===""){
@@ -18,6 +18,7 @@ function registration (e) {
    if (password.value !== verify.value){
         messages.push("passwords do not match")
     }
+  
     if (messages.length >0){
         e.preventDefault()
         error.innerText = messages.join(',')

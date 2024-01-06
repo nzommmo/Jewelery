@@ -6,7 +6,7 @@ function login() {
     const enteredPassword = passwordInput.value;
 
     if (enteredUsername === "ERIC" && enteredPassword ==="ERIC2003") {
-        window.open("user_interface/Homepage.html");
+       window.open("user_interface/Homepage.html");
         
     } else {
         alert("Invalid username or password. Please try again.");
@@ -15,10 +15,11 @@ function login() {
 sign_in.addEventListener("click",login)
 
 function register() {
-     window.open("login/registration.html");
+    window.open("login/registration.html")
     
     
 }
 sign_up.addEventListener("click",register)
+
 
 
