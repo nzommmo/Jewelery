@@ -159,10 +159,8 @@ footer a{
 
     }
     #exp{
-        position: absolute;
-        right: 45%;
-        bottom: -85%;
-        transform: translate(-50%,-50%);
+        margin:0 -10% 20% 80%;
+        
         text-align: center;
         color: #000000;
         z-index: 1;
