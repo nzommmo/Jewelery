@@ -15,7 +15,7 @@ function login() {
 sign_in.addEventListener("click",login)
 
 function register() {
-    window.open("login/registration.html")
+    window.open("login/registration.html" ,"_self")
     
     
 }

@@ -4,6 +4,10 @@ let username = "ERIC"
 const display = username.value
 document.getElementById("Profile").innerHTML=username
 
+
+var myindex=0
+slideshow()
+
 function slideshow (){
     var i
     var images =document.getElementsByClassName("slides");
@@ -20,5 +24,3 @@ function slideshow (){
     setTimeout(slideshow,3000)
     
 }
-var myindex=0
-slideshow
