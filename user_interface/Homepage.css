@@ -89,7 +89,7 @@ div>p{
 #exp{
     position: absolute;
     right: 65%;
-    bottom: -99%;
+    bottom: -105%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: black;
@@ -113,7 +113,7 @@ footer a{
 
 
 /*Small screens*/
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     body{
         margin:0;
         padding: 0;
@@ -155,7 +155,7 @@ footer a{
         width: 30vw;
         height: 25vh;
         border-radius: 5px ;
-        margin: 3% 28%;
+        margin: 3% 20%;
 
     }
     
@@ -166,5 +166,10 @@ footer a{
     footer{
         margin:0 20%
     }
+    
+    #exp{
+        display: none;
+    }
+    
     
 }

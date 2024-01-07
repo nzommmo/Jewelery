@@ -14,12 +14,20 @@ function login() {
 }
 sign_in.addEventListener("click",login)
 
-function register() {
+function register(event) {
+    event.preventDefault()
+
     window.open("login/registration.html" ,"_self")
     
     
 }
 sign_up.addEventListener("click",register)
+
+function close(){
+    window.open("login/registration.html")
+}
+
+exit.addEventListener("click",close)
 
 
 
