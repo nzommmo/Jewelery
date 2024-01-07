@@ -32,8 +32,6 @@ function registration (e) {
 reg.addEventListener("click",registration)
 
 function login(){
-    window.open("index.html")
+    window.open("../index.html")
 }
-
 sign.addEventListener("click",login)
-

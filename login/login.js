@@ -23,11 +23,6 @@ function register(event) {
 }
 sign_up.addEventListener("click",register)
 
-function close(){
-    window.open("login/registration.html")
-}
-
-exit.addEventListener("click",close)
 
 
 
