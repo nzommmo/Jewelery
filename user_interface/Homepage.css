@@ -70,16 +70,16 @@ div>p{
     display: none
 }
 #slide{
-    width: 70vw;
+    width: 40vw;
     height:35vh;
     padding-right: 10px;
-    margin: 5% 15%;
+    margin: 5% 20%;
     border:1px solid #4e4747 ;
     border-radius: 5px;
 }
 .slides{
     position: relative;
-    width: 30vw;
+    width: 20vw;
     height: 30vh;
     border-radius: 5px ;
     margin: 0.9% 22%;
@@ -105,19 +105,51 @@ footer{
     background-color:black;
 }
 #socials a{
-    color: white;
+    color: white;  
+
+
+}
+#icons{
+    margin-top:65%;
+    margin-left:25% ;
+}
+#subscribe{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border:1px solid red;
+    outline: red;
 }
 
 #socials{
     position: relative;
-    margin:0 35%;
-    width: 100%;
-    height: fit-content;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border:1px solid red;
+    outline: red;
     color: white;
+}
+#socials p{
+    margin-top:0;
 }
 #contacts{
     margin-right: 30%;
+    line-height: 50px;    
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border:1px solid red;
+    outline: red;
 }
+#location{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border:1px solid red;
+    outline: red;
+}
+
 
 
 
