@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to right,salmon,pink);
+    background-color: whitesmoke;
 }
 body,html{
     overflow-x: hidden;
@@ -107,7 +107,9 @@ footer{
 #socials a{
     color: white;  
 
-
+}
+#subscribe #text{
+    height: 100px;
 }
 #icons{
     margin-top:65%;
@@ -117,37 +119,35 @@ footer{
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    border:1px solid red;
-    outline: red;
+   
 }
 
 #socials{
-    position: relative;
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 100px;
     border-radius: 10px;
-    border:1px solid red;
-    outline: red;
     color: white;
+    margin: 40%;
 }
 #socials p{
-    margin-top:0;
+    width:max-content;
+    color: white;
+ 
+    
 }
 #contacts{
-    margin-right: 30%;
+    margin:0 -200px;
     line-height: 50px;    
-    width: 200px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
-    border:1px solid red;
-    outline: red;
+    z-index: 9;
 }
 #location{
     width: 200px;
     height: 300px;
     border-radius: 10px;
-    border:1px solid red;
-    outline: red;
+   
 }
 
 
