@@ -155,6 +155,30 @@ footer{
     margin: 15px 15px;
     border-radius: 5px;
 }
+#sub{
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#email{
+    background-color: orange;
+    height: 30px;
+    margin-bottom: 10px;
+
+    
+}
+#text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+    
+}
+#email ::placeholder{
+    color:red;
+}
 
 
 
